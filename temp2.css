@@ -1,6 +1,6 @@
 body{
     background-color:black;
-    color: green;
+    color: limegreen;
     font-family: monospace;
     margin: 0;
 }
@@ -35,6 +35,10 @@ h2{
 
 .about_me p{
     font-size: 20px;
+}
+
+.about_me li{
+    padding: 10px;
 }
 
 
