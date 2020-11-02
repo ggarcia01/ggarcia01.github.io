@@ -1,232 +1,419 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="main.css">
-    <link
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link
   rel="stylesheet"
   href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
   integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
   crossorigin="anonymous"
 />
-  </head>
-
-  <body>
-      
-      <main>
-        <title>
-            Gilberto Garcia  
-        </title>
-      
-      </main>
-    <div>
-      <nav>
-        <ul>
-          <li> <a href="#welcome-section">Home</a></li>
-
-          <li> <a href="#about-section">About</a></li>
-
-          <li> <a href="#timeline-section">Timeline</a> </li>
-
-          <li> <a href="#contact-section">Contact</a> </li>
-
-        </ul>
-      </nav>
-    </div>
-
-    <div id="welcome-section" class="welcome-section">
-      <header>
-        <h1>
-          Hi, I'm Gilberto Garcia
-        </h1>
-
-        <h2>
-          welcome to my personal website
-        </h2>
-      </header>
-    </div>
-
-    <div id="about-section" class="about-section">
-      <div class="about-content">
-        <div>
-          <img src="headshot_2.JPG" alt="profile-picture">
-        </div>
-
-        <div class="about-text">
-            <p>
-                I currently live in Chicago, Ill, where I was born and raised.
-                Previously, I lived in Middletown, CT for four years.
-                During that time, I completed my undergraduate education at Wesleyan University, earning a degree in Astronomy and Physics.
-                With these degrees, I am pursuing a career as an Astrophysicist.
-                I am passionate about working towards minimizing the education access gap and providing resources to underrepresented students.
-                Because of this, I have worked various tutoring positions in Chicago and Middletown.
-                To learn more about my work and experience, you can take a look at my <a href="ggarcia_CV_june2020.pdf" target="_blank">CV</a>.
-            </p>
+    
+    </head>
+    
+    
+    <body>
+        <main>
+            <title>
+                Gilberto Garcia
+            </title>
+        </main>
+        
+        <div class='page-wrapper'>
             
-            <p>
-                Outside of academics, I have enjoyed watching and playing soccer since I was a kid, playing for school and travel teams.
-                I am also a general technology enthusiast; I like learning about anything ranging from programming languages to robotics and hardware.
-            </p>
-        </div>
-    </div>
-
-
-    </div>
-
-
-    <div id="timeline-section" class="timeline-section">
-      
-      <div class="timeline-section-header">
-        
-          <h1>
-            Timeline
-          </h1>
-          
-          <h2>
-            below is a list of recent events in my life
-          </h2>
-       
-      </div>
-      
-      <div class=timeline-section-body>
-        
-          <div class="timeline-item">
-          <div class="timeline-item-header">
-            May 2020
-          </div>
-
-          <div class="timeline-item-body">
-            <p>
-                Graduated from Wesleyan University and awarded high honors on senior thesis.  
-            </p>
-          </div>
-        </div>
-          
-        <div class="timeline-item">
-          <div class="timeline-item-header">
-            Jan 2020
-          </div>
-
-          <div class="timeline-item-body">
-            <p>
-                Presented a poster of my undergraduate research at <a href="https://newsletter.blogs.wesleyan.edu/2020/01/30/students-alumni-attend-meeting-of-the-american-astronomical-society-in-hawaii/" target="_blank">American Astronomical Society's (AAS) 235th meeting</a> in Honolulu, HI.
-            </p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-item-header">
-            Nov 2019
-          </div>
-
-          <div class="timeline-item-body">
-            <p>
-                Witnessed a Mercury transit for the first time (and got <a href="https://newsletter.blogs.wesleyan.edu/2019/11/14/students-faculty-community-observe-rare-complete-transit-of-mercury/" target="_blank">interviewed</a>)!  
-            </p>
-          </div>
-        </div>
-          
-          
-          <div class="timeline-item">
-            <div class="timeline-item-header">
-                Oct 2019
+            
+    <!--  full page nav section  -->
+            <div class='nav-section'>
+                <nav id='navbar'>
+                    <header>
+                        <h1 class="link-background">
+                            <a href="#home" class="middle">Gilberto Garcia</a>
+                        </h1>
+                        <img src="headshot_2.JPG" alt='gil portrait'/>
+                        
+                    </header>
+                    
+                    <ul>
+                        
+                        <li>
+                            <a class='nav-link' href='#about'>About Me</a>
+                        </li>
+                        
+                        <li>
+                            <a class='nav-link' href='#research'>Research</a>
+                        </li>
+                        
+                        <li>
+                            <a class='nav-link' href='#CV'>CV & Bibliography</a>
+                        </li>
+                        
+                        <li>
+                            <a class='nav-link' href='#gallery'>Gallery</a>
+                        </li>
+                        
+                        <li>
+                            <a class='nav-link' href='#contact'>Contact</a>
+                        </li>
+                    
+                    
+                    </ul>
+                
+                </nav>
+            
             </div>
+            
+            
+    <!-- responsive nav section -->
+            
+            <div class="resp-nav">
+                
+                <nav>
+                    <div class=" logo">
+                        <h4 class="link-background"><a href="#home" class="middle-resp">Gilberto Garcia</a></h4>
+                    </div>
+                    <ul class="nav-links">
+                        <li> <a href="#about">About</a></li>
 
-            <div class="timeline-item-body">
-                <p>
-                    Presented a poster on my undergraduate research at <a href="https://newsletter.blogs.wesleyan.edu/2019/10/11/8-students-present-research-at-northeast-astronomy-consortium/" target="_blank">KNAC</a> at Vassar University in Poughkeepsie, NY.
-                </p>
-            </div>
-        </div>
-          
-          
-          <div class="timeline-item">
-            <div class="timeline-item-header">
-                Jul 2019
-            </div>
+                        <li> <a href="#research">Research</a></li>
 
-            <div class="timeline-item-body">
-                <p>
-                    Presented a <a href="mcnair_conf.jpg" target="_blank">poster</a> on my udergraduate research at the National McNair Conference at UCLA in Los Angeles, CA.
-                </p>
-            </div>
-        </div>
-          
-          
-          <div class="timeline-item">
-            <div class="timeline-item-header">
-                Jun 2019
-            </div>
+                        <li> <a href="#CV">CV</a> </li>
+                        
+                        <li> <a href='#gallery'>Gallery</a></li>
 
-            <div class="timeline-item-body">
-                <p>
-                    Presented a <a href="wes_summer2.jpg" target="_blank">poster</a> on my undergraduate research at KNAC at Wesleyan's Summer Research Symposium.
-                </p>
+                        <li> <a href="#contact">Contact</a> </li>    
+                    </ul>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
             </div>
-        </div>
-          
-          
-          <div class="timeline-item">
-            <div class="timeline-item-header">
-                Sep 2018
-            </div>
+            
+            <div class="main-container">
+                
+                <section class='home-section main-section' id='home'>
+                    
+                    <h1 class="homeh1">Hi, I'm Gilberto Garcia</h1>
+                    
+                    <h2 class="homeh2">
+                    welcome to my personal website</h2>
+                </section>
+                
+                
+                <section class='main-section section-container' id='about'>
+                    <h1>About Me</h1>
+                    <p>
+                        Hi! I’m Gilberto Garcia. 
+                        I am a first-generation college graduate presently working as a post baccalaureate research assistant at Loyola University - Chicago’s Department of Physics. 
+                        I currently live in Chicago, Ill, where I was born and raised. 
+                        Previously, I lived in Middletown, CT for four years. 
+                        During that time, I completed my undergraduate education at Wesleyan University, earning a degree in Astronomy and Physics and working as an Astronomy research assistant. 
+                        With this experience, I am pursuing a career as an Astrophysicist. 
+                        You can learn more about my research in my <a href="#research">research</a> page.
+                    </p>
+                    <p>
+                        Because of my background, I am deeply invested in STEM outreach and education, specifically working towards minimizing the education access gap and providing resources to underserved student populations.
+                        Because of this, I have actively participated in STEM outreach programs and tutoring positions in Chicago and Middletown. 
+                        To learn more about my work, you can take a look at my <a href="#CV">CV</a> page</p>
+                    
+                    <p>
+                        Outside of academics, I have enjoyed watching and playing soccer (or <em>football</em> if you are passionate about using the “proper” name), playing for school, club, and travel teams. 
+                        To remain active, I enjoy long-distance running. 
+                        I would love to run a half or full marathon some day. 
+                        I am also interested in all-things cars, from repairing junk cars with my dad to talking about dream cars with friends. 
+                    </p>
+                
+                </section>
+                
+                <section class='main-section section-container' id='research'>
+                    <h1>Research</h1>
+                    <h2>Undergraduate Research: Dramatic, Long-term X-ray Variability in AGN</h2>
+                    <p>
+                        Constraints on the duty cycle and duration of accretion episodes in active galactic nuclei (AGNs) are vital for establishing how most AGNs are fueled, which is essential for a complete picture of black hole/galaxy co-evolution. 
+                        Perhaps the best handle we have on these activity parameters is provided by AGNs that have displayed dramatic, persistent changes in their bolometric luminosities. 
+                        Given that X-ray emission is directly linked to black-hole accretion, X-ray source catalogs should provide a straightforward means of identifying AGNs that have undergone dramatic changes in their accretion states. 
+                        However, it appears that such events are very rare, so observations separated in time by many years are needed to maximize discovery rates. 
+                    </p>
+                    <p>
+                        In this project, we cross-correlated the Einstein IPC Two-Sigma Catalog with the Chandra Source Catalog to identify a sample of soft X-ray sources that varied by factors of at least 10 over timescales of 20 or more years. 
+                        Most of the extremely variable sources revealed via this technique were dimmer in the Chandra era, owing to the lower sensitivity and modest exposures associated with Einstein. 
+                        Optical spectra from the Sloan Digital Sky Survey indicated that many of the variable sources were radio-quiet AGNs with broad emission lines — not "changing-look" objects that have more subtle AGN signatures in their spectra. 
+                        We created long-term X-ray light curves for the sources by combining the Einstein and CSC fluxes with those obtained from serendipitous pointed observations by ROSAT.
+                    </p>
+                    <p>
+                        This work resulted in an undergraduate thesis that was awarded high honors and was presented at various conferences.
+                        You can find my thesis and my presentations in the bibliography and presentations section of my <a href="#CV">CV</a> page.
+                    
+                    </p>
+                
+                </section>
+                
+                <section class='main-section section-container' id='CV'>
+                    <h1>CV and Bibliography [<a href="documents/ggarcia_CV.pdf" target="_blank">pdf</a>]</h1>
+                    <h2>Education</h2>
+                    
+                        <ul>
+                            <li>B.A. Astronomy & B.A. Physics, Wesleyan University, <em>2020</em></li>
+                    
+                        </ul>
+                
+                    <h2>Experience</h2>
+                        <ul>
+                            <li>Research Assistant (2020 - Present)</li>
+                            <ul class="bullet-point">
+                                <li>Loyola University - Chicago, Department of Physics</li>
+                                
+                                <li>Project: exploring the relationship between DNA structure and genetic disorders</li>
+                                
+                                <li>Teaching component: redesigning the traditional introductory physics lab into an interdisciplinary, research-based lab experience</li>
+                            
+                            </ul>
+                            <li>Research Assistant (2018-2020)</li>
+                            <ul class="bullet-point">
+                                <li>Wesleyan University, Department of Astronomy</li>
+                                <li>Project: investigating the role that AGN fueling has on black hole/galaxy co-evolution</li>
+                            </ul>
+                        </ul>
 
-            <div class="timeline-item-body">
-                <p>
-                    Gave a talk on his undergraduate research at <a href="http://sites.middlebury.edu/knac2018symp/presentations/" target="_blank">KNAC</a> at Middlebury University in Middlebury, VT.
-                </p>
-            </div>
-        </div>
-          
-          <div class="timeline-item">
-            <div class="timeline-item-header">
-                Jun 2018
-            </div>
+                    <h2>Teaching</h2>
+                        <ul>
+                            <li>Teaching Assistant (Spring 2020)</li>
+                            <ul class="bullet-point">
+                                <li>Wesleyan University, Department of Astronomy</li>
+                                
+                                <li>Class: <em>The Dark Side of the Universe</em> (<a href="https://owaprod-pub.wesleyan.edu/reg/!wesmaps_page.html?stuid=&facid=NONE&crse=013767&term=1201" target="_blank">ASTR111</a>), an introductory, non-major track course taught by Prof. Edward Moran</li>
+                                
+                                <li>Responsibilities: grade homework weekly, hold weekly homework sessions, operate and lead bi-weekly observing nights using Wesleyan's telescopes</li>
+                            
+                            </ul>
+                            <li>Teaching Assistant (Fall 2019)</li>
+                            <ul class="bullet-point">
+                                <li>Wesleyan University, Department of Astronomy</li>
+                                <li>Class: <em>Exploring the Cosmos</em> (<a href="https://owaprod-pub.wesleyan.edu/reg/!wesmaps_page.html?stuid=&facid=NONE&crse=002758&term=1199" target="_blank">ASTR105</a>), an introductory, non-major track course taught by Prof. Seth Redfield</li>
+                                
+                                <li>Responsibilities: grade homework weekly, hold weekly homework sessions, operate and lead observing nights using Wesleyan's telescopes</li>
+                            </ul>
+                        </ul>
+                    
+                
+                    <h2>Leadership</h2>
+                        <ul>
+                            <li>Coordinator (2016 - 2020)</li>
+                            <ul class="bullet-point">
+                                <li>Wesleyan University, Jewett Center for Community Partnerships</li>
+                                
+                                <li>Partnered with <em>Cross Street AME Zion Church</em> in Middletown, CT to provide underserved and minority students (K-12) with a free after-school program</li>
+                                
+                                <li>Recruited and trained Wesleyan students to serve as tutors for the program, also served as a tutor myself</li>
+                            
+                            </ul>
+                            <li>Club Co-Founder (2018-2020)</li>
+                            <ul class="bullet-point">
+                                <li>Club: Wesleyan University Astronomy Club (WesAstro)</li>
+                                <li>created a space for non-STEM majors at Wesleyan to get involved with the Astronomy department at an enthusiast's level</li>
+                                
+                                <li>Lead bi-weekly meetings on current or classic Astronomy topics and occasionally had observing nights</li>
+                            </ul>
+                            
+                            <li>Astronomy Public Outreach Volunteer (2018 - 2020)</li>
+                            <ul class="bullet-point">
+                                <li>Wesleyan University, Department of Astronomy</li>
+                                <li>Participated in Space Night and Kids' Night, outreach programs at Wesleyan's Van Vleck Observatory that were geared towards adults and kids, respectively. </li>
+                                
+                                <li>Led presentations, activities and public observing on a weekly basis.</li>
+                            </ul>
+                        </ul>
+                    
+                    <h2>Presentations</h2>
+                    <ul>
+                        <li>Jan 2020: Poster presentation at American Astronomical Society's 235th meeting at Honolulu, HI [<a href="presentations/AAS2019_poster.pdf" target="_blank">poster</a>]</li>
+                        
+                        <li>Oct 2019: Poster presentation at the Keck Northeast Astronomy Consortium (KNAC) at Vassar University [<a href="presentations/KNAC2019_poster.pdf" target="_blank">poster</a>]</li>
+                        
+                        <li>Jul 2019: Poster presentation at the McNair National Conference at UCLA [<a href="presentations/MCNAIR_WES2019_poster.pdf" target="_blank">poster</a>]</li>
+                        
+                        <li>Jun 2019: Poster presentation at Wesleyan's Summer Research Symposium [<a href="presentations/MCNAIR_WES2019_poster.pdf" target="_blank">poster</a>]</li>
+                        
+                        <li>Sep 2018: Powerpoint presentation at KNAC at Middlebury University [<a href="presentations/KNAC2018_pwpt.pdf" target="_blank">powerpoint</a>]</li>
+                        
+                        <li>Jun 2018: Poster presentation at Wesleyan's Summer Research Symposium [<a href="presentations/WES2018_poster.pdf" target="_blank">poster</a>]</li>
+                    </ul>
+                    
+                    <h2>Bibiliography</h2>
+                    <ul>
+                        <li>Publications</li>
+                        <ul class="bullet-point">
+                            <li>Coming very soon!</li>
+                        </ul>
+                        
+                        <li>Bachlor's Thesis</li>
+                        <ul class="bullet-point">
+                            <li>Garcia, G. (2020). <em>Dramatic, Long-term Variability in AGN</em>. Wesleyan University. [<a href="documents/dramatic_long_term_variability_in_agn.pdf" target="_blank">pdf</a>]</li>
+                        </ul>
+                    </ul>
+                    
+                    
+                    <h2>Awards, Honors, and Affiliations</h2>
+                    <ul>
+                        <li><em>Fellow</em>, McNair Post-Baccalaureate Program, Wesleyan University (2019-Present)</li>
+                        
+                        <li><em>Fellow</em>, QuestBridge National College Match Program (2016-Present)</li>
+                        
+                        <li><em>Fellow</em>, Chicago Scholars Foundation Program (2016-Present)</li>
+                        
+                        <li><em>Fellow</em>, Space Telescope Science Institute Summer Research Program (Summer 2020)
+                        <br> <em>*Canceled due to COVID-19*</em>
+                        </li>
+                        
+                        <li><em>Recipient</em>, High Honors for Astronomy Thesis, Wesleyan University (Spring 2020)</li>
+                        
+                        <li><em>Fellow</em>, Summer Research Program, Wesleyan University (Summer 2019)</li>
+                        
+                        <li><em>Fellow</em>, Summer Research Program, Wesleyan University (Summer 2018)</li>
+                        
+                        
+                        
+                    </ul>
+                    
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Operating Systems: Mac OS, Microsoft Windos</li>
+                        
+                        <li>Languages: Python, C, SQL, HTML, CSS, Latex </li>
+                        
+                        <li>Software: IRAF, SAOImage DS9, Mathematica, Microsoft Excel, Google Drive</li>
+                    </ul>
+                    
+                    <h2>Press</h2>
+                    <ul>
+                        <li><a href="https://newsletter.blogs.wesleyan.edu/2020/01/30/students-alumni-attend-meeting-of-the-american-astronomical-society-in-hawaii/" target="_blank"><em>Students, Alumni Attend Meeting of the American Astronomical Society in Hawaii</em></a> (Wesleyan, 2020)</li>
+                        
+                        <li><a href="https://newsletter.blogs.wesleyan.edu/2019/11/14/students-faculty-community-observe-rare-complete-transit-of-mercury/" target="_blank"><em>Students, Faculty, Community Observe Rare Complete Transit of Mercury</em></a> (Wesleyan, 2019)</li>
+                        
+                        <li><a href="https://newsletter.blogs.wesleyan.edu/2019/10/11/8-students-present-research-at-northeast-astronomy-consortium/" target="_blank"><em>Students Present Research at Northeast Astronomy Consortium</em></a> (Wesleyan, 2019)</li>
+                    </ul>
+                    
+                </section>
+                
+                <section class='main-section section-container' id='gallery'>
+                    <h1>Gallery</h1>
+                    <h2>Friends & Me</h2>
+                    <p>Some highlights of my academic career so far.</p>
+                    
+                    <div class="gallery-container">
+                      <div class="grid">
+                        <figure>
+                            <img src="gallery/aas_pres.jpg" alt =''>
+                          <figcaption>
+                            My poster presentation day at AAS235 in Honolulu, HI. Presented my undergraduate research work.
+                          </figcaption>
+                          </figure>
 
-            <div class="timeline-item-body">
-                <p>
-                    Presented a <a href="wesleyan_summer1.jpg" target="_blank">poster</a> on my undergraduate research at KNAC at Wesleyan's Summer Research Symposium.
-                </p>
-            </div>
-        </div>
-        
-      </div>
-      
-    </div>
+
+                        <figure>
+                        <img src="gallery/mcnair_pres.jpg" alt =''>
+                          <figcaption>
+                              Presenting my undegraduate research at the 2019 National McNair conference at UCLA. 
+                          </figcaption>
+                        </figure>
 
 
+                        <figure>
+                            <img src="gallery/vvo_holiday_party2019.jpg" alt =''>
+                          <figcaption>
+                            Astro friends and me at the Wesleyan Astronomy department 2019 holiday party.
+                          </figcaption>
+                          </figure>
 
-    <div id="contact-section" class="contact-section">
-  <header>
-      
-      <h1>
-        Contact
-      </h1>
-    <h2>
-      follow my online presence
-    </h2>
-  </header>
-  <div class="contact-icons">
-    <a id="profile-link" href="https://github.com/ggarcia01" target="_blank">
-      <i class="fab fa-github	"></i>github.com/ggarcia01
-    </a>
+                        <figure>
+                        <img src="gallery/wes_aas.jpg" alt =''>
+                          <figcaption>
+                            Wesleyan Astro department in Hawaii!
+                          </figcaption>
+                        </figure>
+
+                      </div>
+                        <h2>"Astrophotography"</h2>
+                        <p>
+                            Below are some of my attempts to take pictures of celestial objects with my Samsung Galaxy S9. 
+                            I would love to be able to learn proper astrophotography one day; it seems like a pretty expensive hobby though.
+                        </p>
+                        
+                    <div class="grid">
+                        <figure>
+                            <img src="gallery/moon.jpg" alt =''>
+                          <figcaption>
+                            A beautiful moon picture taken from Van Vleck Observatory's (VVO) now defunct 16'' reflecting telescope. The moon is my favorite object to show at public observing nights, never fails to amaze people!
+                          </figcaption>
+                          </figure>
+
+
+                        <figure>
+                        <img src="gallery/orion.jpg" alt =''>
+                          <figcaption>
+                            The Orion Nebula taken using VVO's 24'' refractor. Visible is some of the dust in the nebula and the trapezium.
+                          </figcaption>
+                        </figure>
+
+
+                        <figure>
+                            <img src="gallery/orion_const.jpg" alt =''>
+                          <figcaption>
+                            The Orion Cluster as seen through the dome slit of VVO's 24'' telescope (might need to zoom in to see the cluster better).
+                          </figcaption>
+                          </figure>
+
+                        <figure>
+                        <img src="gallery/transit.jpg" alt =''>
+                          <figcaption>
+                            Mercury transiting the sun! Taken from a solar telescope with a Hydrogen alpha filter. Might need to zoom in on this one too. Otherwise, Mercury looks like a smudge on your screen.
+                          </figcaption>
+                        </figure>
+
+                      </div>
   
-    <a  href="https://www.linkedin.com/in/ggarcia01/" target="_blank">
-      <i class="fab fa-linkedin"></i>linkedin.com/in/ggarcia01
-    </a>
+  
+    
+                    </div>
+                    
+                    
+                
+                </section>
+                
+                <section class='main-section section-container' id='contact'>
+                    <h1>Contact</h1>
+                    <p>You can reach or follow me at the following:</p>
+                    <div class="contact-icons">
+                        <a href="mailto: ggarcia01@wesleyan.edu">
+                            <i class="fa fa-envelope"></i>ggarcia01@wesleyan.edu
+                        </a>
+  
+                        <a  href="https://www.linkedin.com/in/ggarcia01/" target="_blank">
+                            <i class="fab fa-linkedin"></i>linkedin.com/in/ggarcia01
+                        </a>
+                        
+                        <a id="profile-link" href="https://github.com/ggarcia01" target="_blank">
+                            <i class="fab fa-github	"></i>github.com/ggarcia01
+                        </a>
+                    </div>
+                
+                </section>
+            
+            </div>
+        
+        </div>
+    
+    
+        <script src="app.js"></script>
+    </body>
+    
 
-    <a href="mailto: ggarcia01@wesleyan.edu">
-      <i class="fa fa-envelope"></i>ggarcia01@wesleyan.edu
-    </a>
-  </div>
-</div>
 
-
-  </body>
-
-
-
-
+    
+    
+    
 </html>
